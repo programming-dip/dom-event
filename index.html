@@ -6,6 +6,29 @@
     <title>DOM Events</title>
 </head>
 <body>
-    
+    <h1>Dom Events</h1>
+    <!-- Option 1 for event handler -->
+    <button onclick="console.log(9)">Click Me</button>
+    <button ondblclick="console.log(27)">Another button</button>
+    <button onclick="console.log('I am clicked')">third button</button>
+    <input type="text" name="" id="">
+
+    <br>
+    <!-- Option 2 for click event handler -->
+     <button onclick="makeYellow()">Make Yellow</button>
+     <button onclick="makeRed()">Make Red</button>
+
+     <br>
+     <!-- Option 3: get element by id and then set onclick to a function -->
+     <button id="btn-make-blue">Make Blue</button>
+
+     <br>
+     <!-- Option 4:  addEventListener-->
+      <button id="btn-make-green">Make green</button>
+      <button id="btn-make-gold">Make gold</button>
+      <br>
+      <!-- option 5: shortcut of option 4 -->
+      <button id="btn-make-black">Make Black</button>
+    <script src="js/events.js"></script>
 </body>
 </html>
