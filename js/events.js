@@ -1,5 +1,5 @@
 console.log("events.js connected .........");
-// Option 3
+// Option 2
 function makeYellow() {
     document.body.style.backgroundColor = 'yellow';
 }
